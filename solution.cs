@@ -1,4 +1,3 @@
-```javascript
 function matrixMultiplication(matrixA, matrixB) {
     let result = [];
     for(let i = 0; i < matrixA.length; i++) {
@@ -13,9 +12,3 @@ function matrixMultiplication(matrixA, matrixB) {
     }
     return result;
 }
-
-let matrixA = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
-let matrixB = [[10, 11, 12], [13, 14, 15], [16, 17, 18]];
-
-console.log(matrixMultiplication(matrixA, matrixB));
-```
